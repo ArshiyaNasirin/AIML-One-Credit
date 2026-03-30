@@ -665,6 +665,14 @@ body::before {
     overflow: hidden;
 }
 
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: saturate(1.08) contrast(1.05);
+}
+
 .project-image::after {
     content: '';
     position: absolute;
