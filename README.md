@@ -1,4 +1,4 @@
-# 🚀 Arshiya Nasirin - AI/ML Portfolio
+# 🚀 Arshiya Nasirin M - AI/ML Portfolio
 
 A **stunning, modern, and futuristic personal portfolio website** designed to showcase AI and Machine Learning expertise with **neon colors, smooth animations, and interactive elements**.
 
