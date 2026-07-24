@@ -18,12 +18,14 @@
                 <span class="logo-dot"></span>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
+            <div class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </div>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -32,67 +34,36 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="stars"></div>
-        <div class="hero-content">
-            <div class="profile-section">
-                <div class="profile-wrapper">
-                    <div class="glow-circle"></div>
-                    <img src="profile.png
-                    " alt="Arshiya Nasirin" class="profile-img">
-                </div>
-                <div class="profile-stats">
-                    <img src="https://komarev.com/ghpvc/?username=ArshiyaNasirin&label=Profile%20Views&color=ff006e&style=for-the-badge" alt="Profile Views">
-                </div>
-            </div>
-
-            <div class="hero-text">
-                <h1 class="hero-title">
-                    <span class="gradient-text">ARSHIYA NASIRIN M</span>
-                </h1>
-                <p class="hero-subtitle">AI/ML Specialist | Full-Stack Developer | Innovation Enthusiast</p>
-                <p class="hero-typing"><span id="typingRole"></span><span class="typing-caret">|</span></p>
-                
-                <div class="hero-badges">
-                    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-                    <img src="https://img.shields.io/badge/Machine%20Learning-FF6B6B?style=for-the-badge&logo=tensorflow&logoColor=white" alt="ML">
-                    <img src="https://img.shields.io/badge/AI-00D9FF?style=for-the-badge&logo=openai&logoColor=white" alt="AI">
-                    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React">
-                </div>
-
-                <p class="hero-description">
-                    Passionate CSE student specializing in Artificial Intelligence & Machine Learning. Building intelligent solutions and exploring technological innovations that make a real-world impact.
-                </p>
-
-                <div class="cta-buttons">
-                    <a href="#projects" class="btn btn-primary">Explore Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
-                    <a href="Arshiya's Resume.pdf" download class="btn btn-primary">Download Resume</a>
-                    <a href="Arshiya's Resume.pdf" target="_blank" rel="noreferrer" class="btn btn-secondary">View Resume</a>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="scroll-indicator">
-            <span>Scroll to explore</span>
-            <div class="scroll-arrow">↓</div>
-        </div>
-    </section>
-
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            
+            <div class="about-header">
+                <p class="section-eyebrow">GET TO KNOW ME</p>
+                <h2 class="section-title about-title">ABOUT ME</h2>
+                <span class="about-title-line"></span>
+            </div>
+
             <div class="about-content">
-                <div class="about-text">
+                <div class="about-portrait">
+                    <div class="about-portrait-orb about-portrait-orb-one"></div>
+                    <div class="about-portrait-orb about-portrait-orb-two"></div>
+                    <div class="about-portrait-frame">
+                        <div class="about-portrait-glow"></div>
+                        <img src="profile.png" alt="Arshiya Nasirin" class="about-portrait-img">
+                    </div>
+                </div>
+
+                <div class="about-copy">
+                    <h3 class="about-name">Arshiya Nasirin M</h3>
                     <p class="about-intro">
-                        An ambitious Computer Science and Engineering student passionate about Artificial Intelligence and Machine Learning, with a strong desire to engage in applied research and contribute meaningfully to real-world intelligent and data-driven solutions.
+                        I'm an AI & Machine Learning student passionate about software development and problem-solving. I enjoy creating AI applications, web projects, and data-driven solutions using Java, Python, SQL, and modern development tools.
                     </p>
 
-                    <div class="info-grid">
+                    <p class="about-intro about-intro-secondary">
+                        I believe in continuous learning and building technology that creates meaningful impact.
+                    </p>
+
+                    <div class="info-grid about-info-grid">
                         <div class="info-card">
                             <i class="fas fa-graduation-cap"></i>
                             <h3>Education</h3>
@@ -117,11 +88,12 @@
                             <p>English • Tamil<br>Hindi • Urdu</p>
                         </div>
                     </div>
-                </div>
 
-                <div class="github-stats">
-                    <img src="https://github-readme-stats.vercel.app/api?username=ArshiyaNasirin&theme=radical&hide_border=true&bg_color=0D1117&text_color=58A6FF&title_color=FF006E" alt="GitHub Stats">
-                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ArshiyaNasirin&theme=radical&hide_border=true&background=0D1117&stroke=FF006E&ring=FF006E&fire=FF006E&currStreakNum=58A6FF&sideNums=58A6FF&currStreakLabel=FF006E&sideLabels=58A6FF" alt="GitHub Streak">
+                    <div class="cta-buttons about-actions">
+                        <a href="#projects" class="btn btn-primary">Explore Work</a>
+                        <a href="Arshiya's Resume.pdf" target="_blank" rel="noreferrer" class="btn btn-secondary">View Resume</a>
+                        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -352,7 +324,7 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3>AICTE Virtual Internship - AI/ML</h3>
-                        <p class="timeline-date">July 2025 – September 2025</p>
+                        <p class="timeline-date">July 2025 - September 2025</p>
                         <p class="timeline-description">
                             Completed a comprehensive virtual internship focused on AI/ML concepts, model training, and data analysis. Gained hands-on experience using Google Colab and Weka with beginner-friendly tools.
                         </p>
